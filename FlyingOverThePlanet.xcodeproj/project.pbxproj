@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B1BDCFA21D95C73708E15E /* Pods_FlyingOverThePlanet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BDDCEC91747585505AE6BF /* Pods_FlyingOverThePlanet.framework */; };
+		532B218D2158E4DA00EAF4A1 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532B218C2158E4DA00EAF4A1 /* SoundManager.swift */; };
+		532B21922158E70300EAF4A1 /* Die.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 532B21902158E70300EAF4A1 /* Die.mp3 */; };
+		532B21932158E70300EAF4A1 /* Game.wav in Resources */ = {isa = PBXBuildFile; fileRef = 532B21912158E70300EAF4A1 /* Game.wav */; };
+		537502BF21587C5A005A9DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537502BE21587C5A005A9DFA /* AppDelegate.swift */; };
+		537502C121587C5A005A9DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537502C021587C5A005A9DFA /* ViewController.swift */; };
+		537502C421587C5A005A9DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537502C221587C5A005A9DFA /* Main.storyboard */; };
+		537502C921587C5B005A9DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537502C721587C5B005A9DFA /* LaunchScreen.storyboard */; };
+		537502D421587C5B005A9DFA /* FlyingOverThePlanetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537502D321587C5B005A9DFA /* FlyingOverThePlanetTests.swift */; };
+		537502DF21587C5B005A9DFA /* FlyingOverThePlanetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537502DE21587C5B005A9DFA /* FlyingOverThePlanetUITests.swift */; };
+		537502ED21587DF9005A9DFA /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537502EC21587DF9005A9DFA /* GameOverViewController.swift */; };
+		537502EF21587E08005A9DFA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537502EE21587E08005A9DFA /* GameViewController.swift */; };
+		537502F12158842C005A9DFA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537502F02158842C005A9DFA /* AVFoundation.framework */; };
+		537502F321588457005A9DFA /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537502F221588457005A9DFA /* GameConfig.swift */; };
+		537502F5215885A9005A9DFA /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537502F4215885A9005A9DFA /* WebViewController.swift */; };
+		537502F92158937A005A9DFA /* RocketScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537502F82158937A005A9DFA /* RocketScene.swift */; };
+		53F75966215B388C00510AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F75965215B388C00510AA2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		537502D021587C5B005A9DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537502B321587C5A005A9DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537502BA21587C5A005A9DFA;
+			remoteInfo = FlyingOverThePlanet;
+		};
+		537502DB21587C5B005A9DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537502B321587C5A005A9DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537502BA21587C5A005A9DFA;
+			remoteInfo = FlyingOverThePlanet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		532B218C2158E4DA00EAF4A1 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		532B21902158E70300EAF4A1 /* Die.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Die.mp3; sourceTree = "<group>"; };
+		532B21912158E70300EAF4A1 /* Game.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Game.wav; sourceTree = "<group>"; };
+		537502BB21587C5A005A9DFA /* FlyingOverThePlanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingOverThePlanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		537502BE21587C5A005A9DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		537502C021587C5A005A9DFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		537502C321587C5A005A9DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		537502C821587C5B005A9DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		537502CA21587C5B005A9DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537502CF21587C5B005A9DFA /* FlyingOverThePlanetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingOverThePlanetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537502D321587C5B005A9DFA /* FlyingOverThePlanetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingOverThePlanetTests.swift; sourceTree = "<group>"; };
+		537502D521587C5B005A9DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537502DA21587C5B005A9DFA /* FlyingOverThePlanetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingOverThePlanetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537502DE21587C5B005A9DFA /* FlyingOverThePlanetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingOverThePlanetUITests.swift; sourceTree = "<group>"; };
+		537502E021587C5B005A9DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537502EC21587DF9005A9DFA /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		537502EE21587E08005A9DFA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		537502F02158842C005A9DFA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		537502F221588457005A9DFA /* GameConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfig.swift; sourceTree = "<group>"; };
+		537502F4215885A9005A9DFA /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		537502F82158937A005A9DFA /* RocketScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketScene.swift; sourceTree = "<group>"; };
+		53F75965215B388C00510AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66BDDCEC91747585505AE6BF /* Pods_FlyingOverThePlanet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyingOverThePlanet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D290FF06AC5F11C3A2D8A851 /* Pods-FlyingOverThePlanet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyingOverThePlanet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlyingOverThePlanet/Pods-FlyingOverThePlanet.debug.xcconfig"; sourceTree = "<group>"; };
+		EFB8F86176FF3C2EDE1D505F /* Pods-FlyingOverThePlanet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyingOverThePlanet.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlyingOverThePlanet/Pods-FlyingOverThePlanet.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		537502B821587C5A005A9DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537502F12158842C005A9DFA /* AVFoundation.framework in Frameworks */,
+				04B1BDCFA21D95C73708E15E /* Pods_FlyingOverThePlanet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537502CC21587C5B005A9DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537502D721587C5B005A9DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD9372ACAA56C731FB86AED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				537502F02158842C005A9DFA /* AVFoundation.framework */,
+				66BDDCEC91747585505AE6BF /* Pods_FlyingOverThePlanet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		537502B221587C5A005A9DFA = {
+			isa = PBXGroup;
+			children = (
+				537502BD21587C5A005A9DFA /* FlyingOverThePlanet */,
+				537502D221587C5B005A9DFA /* FlyingOverThePlanetTests */,
+				537502DD21587C5B005A9DFA /* FlyingOverThePlanetUITests */,
+				537502BC21587C5A005A9DFA /* Products */,
+				A5237BD724E4C9696D69A210 /* Pods */,
+				2AD9372ACAA56C731FB86AED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		537502BC21587C5A005A9DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				537502BB21587C5A005A9DFA /* FlyingOverThePlanet.app */,
+				537502CF21587C5B005A9DFA /* FlyingOverThePlanetTests.xctest */,
+				537502DA21587C5B005A9DFA /* FlyingOverThePlanetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		537502BD21587C5A005A9DFA /* FlyingOverThePlanet */ = {
+			isa = PBXGroup;
+			children = (
+				537502BE21587C5A005A9DFA /* AppDelegate.swift */,
+				537502F221588457005A9DFA /* GameConfig.swift */,
+				532B218C2158E4DA00EAF4A1 /* SoundManager.swift */,
+				537502F4215885A9005A9DFA /* WebViewController.swift */,
+				537502C021587C5A005A9DFA /* ViewController.swift */,
+				537502EE21587E08005A9DFA /* GameViewController.swift */,
+				537502F82158937A005A9DFA /* RocketScene.swift */,
+				537502EC21587DF9005A9DFA /* GameOverViewController.swift */,
+				53F75965215B388C00510AA2 /* Assets.xcassets */,
+				532B21902158E70300EAF4A1 /* Die.mp3 */,
+				532B21912158E70300EAF4A1 /* Game.wav */,
+				537502C221587C5A005A9DFA /* Main.storyboard */,
+				537502C721587C5B005A9DFA /* LaunchScreen.storyboard */,
+				537502CA21587C5B005A9DFA /* Info.plist */,
+			);
+			path = FlyingOverThePlanet;
+			sourceTree = "<group>";
+		};
+		537502D221587C5B005A9DFA /* FlyingOverThePlanetTests */ = {
+			isa = PBXGroup;
+			children = (
+				537502D321587C5B005A9DFA /* FlyingOverThePlanetTests.swift */,
+				537502D521587C5B005A9DFA /* Info.plist */,
+			);
+			path = FlyingOverThePlanetTests;
+			sourceTree = "<group>";
+		};
+		537502DD21587C5B005A9DFA /* FlyingOverThePlanetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				537502DE21587C5B005A9DFA /* FlyingOverThePlanetUITests.swift */,
+				537502E021587C5B005A9DFA /* Info.plist */,
+			);
+			path = FlyingOverThePlanetUITests;
+			sourceTree = "<group>";
+		};
+		A5237BD724E4C9696D69A210 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D290FF06AC5F11C3A2D8A851 /* Pods-FlyingOverThePlanet.debug.xcconfig */,
+				EFB8F86176FF3C2EDE1D505F /* Pods-FlyingOverThePlanet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		537502BA21587C5A005A9DFA /* FlyingOverThePlanet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537502E321587C5B005A9DFA /* Build configuration list for PBXNativeTarget "FlyingOverThePlanet" */;
+			buildPhases = (
+				A31E75DF170AD4876B3AA79E /* [CP] Check Pods Manifest.lock */,
+				537502B721587C5A005A9DFA /* Sources */,
+				537502B821587C5A005A9DFA /* Frameworks */,
+				537502B921587C5A005A9DFA /* Resources */,
+				4D0E91429E71E5590586F24B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingOverThePlanet;
+			productName = FlyingOverThePlanet;
+			productReference = 537502BB21587C5A005A9DFA /* FlyingOverThePlanet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		537502CE21587C5B005A9DFA /* FlyingOverThePlanetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537502E621587C5B005A9DFA /* Build configuration list for PBXNativeTarget "FlyingOverThePlanetTests" */;
+			buildPhases = (
+				537502CB21587C5B005A9DFA /* Sources */,
+				537502CC21587C5B005A9DFA /* Frameworks */,
+				537502CD21587C5B005A9DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				537502D121587C5B005A9DFA /* PBXTargetDependency */,
+			);
+			name = FlyingOverThePlanetTests;
+			productName = FlyingOverThePlanetTests;
+			productReference = 537502CF21587C5B005A9DFA /* FlyingOverThePlanetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		537502D921587C5B005A9DFA /* FlyingOverThePlanetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537502E921587C5B005A9DFA /* Build configuration list for PBXNativeTarget "FlyingOverThePlanetUITests" */;
+			buildPhases = (
+				537502D621587C5B005A9DFA /* Sources */,
+				537502D721587C5B005A9DFA /* Frameworks */,
+				537502D821587C5B005A9DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				537502DC21587C5B005A9DFA /* PBXTargetDependency */,
+			);
+			name = FlyingOverThePlanetUITests;
+			productName = FlyingOverThePlanetUITests;
+			productReference = 537502DA21587C5B005A9DFA /* FlyingOverThePlanetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		537502B321587C5A005A9DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = jerryHU;
+				TargetAttributes = {
+					537502BA21587C5A005A9DFA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					537502CE21587C5B005A9DFA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 537502BA21587C5A005A9DFA;
+					};
+					537502D921587C5B005A9DFA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 537502BA21587C5A005A9DFA;
+					};
+				};
+			};
+			buildConfigurationList = 537502B621587C5A005A9DFA /* Build configuration list for PBXProject "FlyingOverThePlanet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 537502B221587C5A005A9DFA;
+			productRefGroup = 537502BC21587C5A005A9DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				537502BA21587C5A005A9DFA /* FlyingOverThePlanet */,
+				537502CE21587C5B005A9DFA /* FlyingOverThePlanetTests */,
+				537502D921587C5B005A9DFA /* FlyingOverThePlanetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		537502B921587C5A005A9DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537502C921587C5B005A9DFA /* LaunchScreen.storyboard in Resources */,
+				532B21932158E70300EAF4A1 /* Game.wav in Resources */,
+				537502C421587C5A005A9DFA /* Main.storyboard in Resources */,
+				532B21922158E70300EAF4A1 /* Die.mp3 in Resources */,
+				53F75966215B388C00510AA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537502CD21587C5B005A9DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537502D821587C5B005A9DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D0E91429E71E5590586F24B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlyingOverThePlanet/Pods-FlyingOverThePlanet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlyingOverThePlanet/Pods-FlyingOverThePlanet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A31E75DF170AD4876B3AA79E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlyingOverThePlanet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		537502B721587C5A005A9DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537502EF21587E08005A9DFA /* GameViewController.swift in Sources */,
+				532B218D2158E4DA00EAF4A1 /* SoundManager.swift in Sources */,
+				537502F5215885A9005A9DFA /* WebViewController.swift in Sources */,
+				537502F92158937A005A9DFA /* RocketScene.swift in Sources */,
+				537502F321588457005A9DFA /* GameConfig.swift in Sources */,
+				537502C121587C5A005A9DFA /* ViewController.swift in Sources */,
+				537502BF21587C5A005A9DFA /* AppDelegate.swift in Sources */,
+				537502ED21587DF9005A9DFA /* GameOverViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537502CB21587C5B005A9DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537502D421587C5B005A9DFA /* FlyingOverThePlanetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537502D621587C5B005A9DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537502DF21587C5B005A9DFA /* FlyingOverThePlanetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		537502D121587C5B005A9DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 537502BA21587C5A005A9DFA /* FlyingOverThePlanet */;
+			targetProxy = 537502D021587C5B005A9DFA /* PBXContainerItemProxy */;
+		};
+		537502DC21587C5B005A9DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 537502BA21587C5A005A9DFA /* FlyingOverThePlanet */;
+			targetProxy = 537502DB21587C5B005A9DFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		537502C221587C5A005A9DFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537502C321587C5A005A9DFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		537502C721587C5B005A9DFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537502C821587C5B005A9DFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		537502E121587C5B005A9DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		537502E221587C5B005A9DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		537502E421587C5B005A9DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D290FF06AC5F11C3A2D8A851 /* Pods-FlyingOverThePlanet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FlyingOverThePlanet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlyingOverThePlanet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		537502E521587C5B005A9DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB8F86176FF3C2EDE1D505F /* Pods-FlyingOverThePlanet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FlyingOverThePlanet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlyingOverThePlanet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		537502E721587C5B005A9DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyingOverThePlanetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlyingOverThePlanet.FlyingOverThePlanetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingOverThePlanet.app/FlyingOverThePlanet";
+			};
+			name = Debug;
+		};
+		537502E821587C5B005A9DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyingOverThePlanetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlyingOverThePlanet.FlyingOverThePlanetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingOverThePlanet.app/FlyingOverThePlanet";
+			};
+			name = Release;
+		};
+		537502EA21587C5B005A9DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyingOverThePlanetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlyingOverThePlanet.FlyingOverThePlanetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyingOverThePlanet;
+			};
+			name = Debug;
+		};
+		537502EB21587C5B005A9DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyingOverThePlanetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlyingOverThePlanet.FlyingOverThePlanetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyingOverThePlanet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		537502B621587C5A005A9DFA /* Build configuration list for PBXProject "FlyingOverThePlanet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537502E121587C5B005A9DFA /* Debug */,
+				537502E221587C5B005A9DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537502E321587C5B005A9DFA /* Build configuration list for PBXNativeTarget "FlyingOverThePlanet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537502E421587C5B005A9DFA /* Debug */,
+				537502E521587C5B005A9DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537502E621587C5B005A9DFA /* Build configuration list for PBXNativeTarget "FlyingOverThePlanetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537502E721587C5B005A9DFA /* Debug */,
+				537502E821587C5B005A9DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537502E921587C5B005A9DFA /* Build configuration list for PBXNativeTarget "FlyingOverThePlanetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537502EA21587C5B005A9DFA /* Debug */,
+				537502EB21587C5B005A9DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 537502B321587C5A005A9DFA /* Project object */;
+}
